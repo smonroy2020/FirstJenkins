@@ -16,7 +16,9 @@ pipeline {
             steps {
                 echo 'Deploying....'
                 echo "Ejecutando Script creado en Jenkins"
-                sh FirstScript.sh 
+                sh '''
+                    sh FirstScript.sh 
+                '''
             }
         }
     }

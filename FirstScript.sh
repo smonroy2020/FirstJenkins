@@ -1,0 +1,1 @@
+echo "Fisrt Script executed by jenkins"
